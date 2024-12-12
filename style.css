@@ -280,15 +280,15 @@ nav {
   color: var(--primary);
 }
 
-.contact-form {
+form {
   background: var(--white);
   padding: 3rem;
   border-radius: 20px;
   box-shadow: var(--shadow);
 }
 
-.contact-form input,
-.contact-form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1.5rem;
@@ -298,18 +298,18 @@ nav {
   transition: var(--transition);
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
+form input:focus,
+form textarea:focus {
   outline: none;
   border-color: var(--primary);
 }
 
-.contact-form textarea {
+form textarea {
   height: 150px;
   resize: vertical;
 }
 
-.contact-form button {
+form button {
   width: 100%;
   padding: 1rem;
   background: var(--primary);
@@ -322,7 +322,7 @@ nav {
   transition: var(--transition);
 }
 
-.contact-form button:hover {
+form button:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow);
 }

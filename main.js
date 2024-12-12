@@ -62,14 +62,5 @@ document.querySelectorAll('.service-card').forEach(card => {
   observer.observe(card);
 });
 
-// Form submission
-const contactForm = document.getElementById('contactForm');
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  // Here you would typically handle the form submission
-  alert('Thank you for your message! We will get back to you soon.');
-  contactForm.reset();
-});
-
 // Dynamic copyright year
 document.querySelector('.copyright-year').textContent = new Date().getFullYear();
