@@ -138,5 +138,10 @@
       </footer>
 
     <script src="main.js"></script>
+    <script>
+        if (window.location.pathname === '/index.html') {
+            window.history.replaceState(null, null, '/');
+        }
+    </script>
 </body>
 </html>
