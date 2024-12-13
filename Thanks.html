@@ -69,4 +69,9 @@
         <a href="/">← Back to Home</a>
     </div>
 </body>
+<script>
+    if (window.location.pathname === '/Thanks.html') {
+        window.history.replaceState(null, null, '/');
+    }
+</script>
 </html>
